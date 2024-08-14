@@ -173,6 +173,7 @@
 @media only screen and (min-width: 0rem) {
   #sbs-r {
     padding: var(--sectionPadding);
+    background-color: #f7f7f7;
   }
   #sbs-r .cs-container {
     display: flex;
@@ -536,6 +537,15 @@
   #reviews .cs-item {
     /* reset margin so it won't interfere with flexbox */
     margin: 0;
+  }
+  #reviews .cs-title {
+    max-width: 100.75rem;
+    text-align: center;
+  }
+  #reviews .cs-text {
+    /* 88px - 104px */
+    max-width: 100.625rem;
+    text-align: center;
   }
 }
 /* Dark Mode */
